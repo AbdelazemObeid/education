@@ -1,0 +1,85 @@
+[
+    {
+        "id": "m1",
+        "name": "Slim Fit Blazer",
+        "image": "img/product/product-2.jpg",
+        "price": 89.0,
+        "rating": 5,
+        "label": "new",
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m2",
+        "name": "Classic Denim Jacket",
+        "image": "img/product/product-4.jpg",
+        "price": 75.0,
+        "rating": 5,
+        "label": null,
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m3",
+        "name": "Oxford Button-Down Shirt",
+        "image": "img/product/product-5.jpg",
+        "price": 45.0,
+        "rating": 5,
+        "label": null,
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m4",
+        "name": "Leather Crossbody Bag",
+        "image": "img/product/product-8.jpg",
+        "price": 65.0,
+        "rating": 5,
+        "label": null,
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m5",
+        "name": "Casual Chino Trousers",
+        "image": "img/product/product-6.jpg",
+        "price": 39.0,
+        "oldPrice": 55.0,
+        "rating": 5,
+        "label": "sale",
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m6",
+        "name": "Aviator Sunglasses",
+        "image": "img/product/product-7.jpg",
+        "price": 59.0,
+        "rating": 5,
+        "label": null,
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m7",
+        "name": "Premium Cotton T-Shirt",
+        "image": "img/product/product-3.jpg",
+        "price": 35.0,
+        "rating": 5,
+        "label": "out of stock",
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m8",
+        "name": "Wool Overcoat",
+        "image": "img/product/product-1.jpg",
+        "price": 120.0,
+        "rating": 5,
+        "label": null,
+        "link": "./product-details.html"
+    },
+    {
+        "id": "m9",
+        "name": "Canvas Travel Backpack",
+        "image": "img/shop/shop-9.jpg",
+        "price": 49.0,
+        "oldPrice": 69.0,
+        "rating": 5,
+        "label": "sale",
+        "link": "./product-details.html"
+    }
+]
