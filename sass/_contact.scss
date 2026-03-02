@@ -1,0 +1,168 @@
+/*---------------------
+  Contact
+-----------------------*/
+.contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact__address {
+  margin-bottom: 45px;
+
+  h5 {
+    color: $heading-color;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  ul {
+
+    li {
+      list-style: none;
+      position: relative;
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+
+      h6 {
+        color: $heading-color;
+        font-weight: 600;
+        margin-bottom: 10px;
+
+        i {
+          font-size: 16px;
+          color: $primary-color;
+          margin-right: 5px;
+        }
+      }
+
+      p {
+        margin-bottom: 0;
+        font-size: 15px;
+        color: #444444;
+      }
+
+      span {
+        font-size: 15px;
+        color: #444444;
+        display: inline-block;
+        margin-right: 25px;
+        position: relative;
+
+        &:after {
+          position: absolute;
+          right: -15px;
+          top: 11px;
+          content: "|";
+          line-height: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact__form {
+
+  h5 {
+    color: $heading-color;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+  form {
+    .form-group {
+      margin-bottom: 20px;
+
+      label {
+        display: block;
+        color: #444444;
+        font-weight: 500;
+        margin-bottom: 8px;
+        font-size: 14px;
+
+        span {
+          color: $primary-color;
+        }
+      }
+
+      .error-message {
+        display: none;
+        color: #dc3545;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+
+      &.has-error {
+        input,
+        textarea {
+          border-color: #dc3545;
+        }
+
+        .error-message {
+          display: block;
+        }
+      }
+    }
+
+    input,
+    textarea {
+      height: 50px;
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 14px;
+      color: #444444;
+      border: 1px solid #e1e1e1;
+      border-radius: 10px;
+      background-color: $white-color;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+      &::placeholder {
+        color: #999999;
+      }
+
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+        box-shadow: 0 0 0 3px rgba($primary-color, 0.1);
+      }
+
+      &.is-invalid {
+        border-color: #dc3545;
+      }
+
+      &.is-valid {
+        border-color: #28a745;
+      }
+    }
+
+    textarea {
+      height: 150px;
+      padding-top: 15px;
+      resize: vertical;
+    }
+  }
+}
+
+.contact__map {
+  height: 780px;
+
+  iframe {
+    width: 100%;
+  }
+}

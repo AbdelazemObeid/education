@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "title": "Buttons tweed blazer",
+        "price": 59.0,
+        "image": "img/product/product-1.jpg",
+        "categories": [
+            "women"
+        ],
+        "label": "New",
+        "labelClass": "new",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "title": "Modern Fit Men's Suit",
+        "price": 49.0,
+        "image": "img/product/product-2.jpg",
+        "categories": [
+            "men"
+        ],
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "title": "Cotton T-Shirt",
+        "price": 59.0,
+        "image": "img/product/product-3.jpg",
+        "categories": [
+            "accessories"
+        ],
+        "label": "out of stock",
+        "labelClass": "stockout",
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "title": "Slim striped pocket shirt",
+        "price": 59.0,
+        "image": "img/product/product-4.jpg",
+        "categories": [
+            "cosmetic"
+        ],
+        "rating": 5
+    },
+    {
+        "id": 5,
+        "title": "Fit micro corduroy shirt",
+        "price": 59.0,
+        "image": "img/product/product-5.jpg",
+        "categories": [
+            "kid"
+        ],
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "title": "Tropical Kimono",
+        "price": 49.0,
+        "oldPrice": 59.0,
+        "image": "img/product/product-6.jpg",
+        "categories": [
+            "women",
+            "men",
+            "kid",
+            "accessories",
+            "cosmetic"
+        ],
+        "label": "Sale",
+        "labelClass": "sale",
+        "isSale": true,
+        "rating": 5
+    },
+    {
+        "id": 7,
+        "title": "Contrasting sunglasses",
+        "price": 59.0,
+        "image": "img/product/product-7.jpg",
+        "categories": [
+            "women",
+            "men",
+            "kid",
+            "accessories",
+            "cosmetic"
+        ],
+        "rating": 5
+    },
+    {
+        "id": 8,
+        "title": "Water resistant backpack",
+        "price": 49.0,
+        "oldPrice": 59.0,
+        "image": "img/product/product-8.jpg",
+        "categories": [
+            "women",
+            "men",
+            "kid",
+            "accessories",
+            "cosmetic"
+        ],
+        "label": "Sale",
+        "isSale": true,
+        "rating": 5
+    }
+]

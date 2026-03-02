@@ -1,0 +1,60 @@
+[
+    {
+        "id": 101,
+        "title": "Classic Navy Suit",
+        "price": 199.0,
+        "image": "img/product/product-2.jpg",
+        "categories": [
+            "men",
+            "clothing"
+        ],
+        "rating": 5
+    },
+    {
+        "id": 102,
+        "title": "Casual White Polo",
+        "price": 45.0,
+        "image": "img/product/product-4.jpg",
+        "categories": [
+            "men",
+            "clothing"
+        ],
+        "rating": 4
+    },
+    {
+        "id": 103,
+        "title": "Slim Fit Denim Jeans",
+        "price": 89.0,
+        "image": "img/product/product-6.jpg",
+        "categories": [
+            "men",
+            "clothing"
+        ],
+        "label": "Sale",
+        "labelClass": "sale",
+        "isSale": true,
+        "rating": 5
+    },
+    {
+        "id": 104,
+        "title": "Urban Street Sunglasses",
+        "price": 120.0,
+        "image": "img/product/product-7.jpg",
+        "categories": [
+            "men",
+            "accessories"
+        ],
+        "rating": 5
+    },
+    {
+        "id": 105,
+        "title": "Leather Messenger Bag",
+        "price": 150.0,
+        "image": "img/product/product-8.jpg",
+        "categories": [
+            "men",
+            "accessories"
+        ],
+        "rating": 5
+    }
+]

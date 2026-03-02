@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <meta charset="UTF-8">
+    <meta name="description" content="Ashion Template - Men's Collection">
+    <meta name="keywords" content="Ashion, fashion, men, clothing, shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Men's Collection - Ashion</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet" media="print"
+        onload="this.media='all';this.onload=null;">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all';this.onload=null;">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script>(function () { try { var c = document.createElement("canvas"); c.width = c.height = 1; var s = c.toDataURL("image/webp").indexOf("webp") > 0; document.documentElement.classList.add(s ? "webp" : "no-webp") } catch (e) { document.documentElement.classList.add("no-webp") } })();</script>
+
+    <!-- Shared Header -->
+    <div id="header-placeholder" data-active-page="men"></div>
+
+    <!-- Category Hero Begin -->
+    <section class="category-hero set-bg" data-setbg="img/categories/category-2.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="category-hero__text">
+                        <h2>Men's Collection</h2>
+                        <p>Discover the latest trends in men's fashion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category Hero End -->
+
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+                        <span>Men's</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Category Section Begin -->
+    <section class="shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="shop__sidebar">
+                        <div class="sidebar__categories">
+                            <div class="section-title">
+                                <h4>Categories</h4>
+                            </div>
+                            <div class="categories__accordion">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-heading active">
+                                            <a data-bs-toggle="collapse" href="#collapseOne">Clothing</a>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li><a href="#">Suits</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                    <li><a href="#">Shirts</a></li>
+                                                    <li><a href="#">T-shirts</a></li>
+                                                    <li><a href="#">Jeans</a></li>
+                                                    <li><a href="#">Trousers</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-heading">
+                                            <a data-bs-toggle="collapse" href="#collapseTwo">Shoes</a>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li><a href="#">Sneakers</a></li>
+                                                    <li><a href="#">Boots</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <!-- Category Filter Bar -->
+                    <div class="shop__product__option">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__left">
+                                    <p>Showing latest men's fashion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Grid — rendered dynamically from JSON -->
+                    <div class="row" id="product-grid" data-product-source="data/men-products.json"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section End -->
+
+    <!-- Shared Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Js Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
